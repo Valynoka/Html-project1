@@ -1,0 +1,101 @@
+.social__item {
+  display: inline-flex;
+  margin-right: 6px;
+  padding-bottom: 6px;
+}
+
+.social__item:last-child{
+  margin-right: 0px;
+}
+
+.socials {
+  top: 33px;
+  right: 261px;
+  margin-right: 74px;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+}
+
+.social__item--icon--telegram .social__link {
+  /* content: ""; */
+  display: block;
+  /* position: absolute; */
+  background: url(../../img/teleg.png)-10px -10px;
+  transition: 0.5s;
+}
+
+.social__item--icon--telegram .social__link:hover {
+  background: url(../../img/teleg.png) -10px -66px;
+}
+
+.social__item--icon--vk .social__link {
+  display: block;
+  background: url(../../img/vk2.png)46px -10px;
+  transition: 0.5s;
+}
+
+.social__item--icon--vk .social__link:hover {
+  background: url(../../img/vk2.png) 46px -66px;;
+}
+
+.social__item--icon--fb .social__link {
+  background:url(../../img/fb.png) 46px -10px;
+  transition: 0.5s;
+}
+
+.social__item--icon--fb .social__link:hover {
+  background:url(../../img/fb.png)46px -66px;
+}
+
+.social__item--icon--insta .social__link {
+  background: url(../../img/inst.png)46px -10px;
+  transition: 0.5s;
+}
+
+.social__item--icon--insta .social__link:hover {
+  background: url(../../img/inst.png)46px -66px;
+} 
+
+
+
+/* 
+.social__item--icon--telegram .social__link {
+  background-image: url(../../img/t.png);
+  transition: 0.5s;
+}
+
+.social__item--icon--telegram .social__link:hover {
+  background-image: url(../../img/t\ hover.png);
+}
+
+.social__item--icon--vk .social__link {
+  background-image: url(../../img/vk.png);
+  transition: 0.5s;
+}
+
+.social__item--icon--vk .social__link:hover {
+  background-image: url(../../img/vk\ hover.png);
+}
+
+.social__item--icon--fb .social__link {
+  background-image: url(../../img/facebook.png);
+  transition: 0.5s;
+}
+
+.social__item--icon--fb .social__link:hover {
+  background-image: url(../../img/f2\ hover.png);
+}
+
+.social__item--icon--insta .social__link {
+  background-image: url(../../img/in.png);
+  transition: 0.5s;
+}
+
+.social__item--icon--insta .social__link:hover {
+  background-image: url(../../img/in\ hover.png);
+} */

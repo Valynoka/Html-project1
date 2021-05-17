@@ -1,0 +1,26 @@
+.topeline__background {
+  width: 1144px;
+  margin: 0 auto;
+}
+
+.topline{
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topline--container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+}
+
+.topline--header-logo {
+  margin-right: 65px;
+}
+
+.topline__logo {
+  width: 101px;
+  height: 41px;
+}

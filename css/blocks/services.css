@@ -1,0 +1,39 @@
+.services__background {
+  background: url(../../img/headline-sv.png) top center no-repeat;
+}
+
+.services {
+  margin-bottom: 64px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 49px;
+
+}
+
+.service__img {
+  width: 41%;
+  margin-right: 4%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 29px;
+  color: #000000;
+}
+
+.service__desc {
+  line-height: 27px;
+  margin-bottom: 39px;
+  font-size: 16px;
+  font-weight: 400;
+  color:#303030;
+  ;
+}

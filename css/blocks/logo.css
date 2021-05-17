@@ -1,0 +1,16 @@
+.logo {
+  display: inline-block;
+}
+
+.logo--header {
+  display: block;
+  margin-right: 79px;
+}
+
+.header-logo{
+  width: 85px;
+  height: 38px;
+}
+.logo--page-footer {
+  margin-right: 68px;
+}

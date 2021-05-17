@@ -1,0 +1,25 @@
+@import url('./css/layout/base.css');
+@import url('./css/layout/normalize.css');
+@import url('./css/blocks/about.css');
+@import url('./css/blocks/breadcrumds.css');
+@import url('./css/blocks/button.css');
+@import url('./css/blocks/contact.css');
+@import url('./css/blocks/footer.css');
+@import url('./css/blocks/greeting.css');
+@import url('./css/blocks/header.css');
+@import url('./css/blocks/logo.css');
+@import url('./css/blocks/menu.css');
+@import url('./css/blocks/nav.css');
+@import url('./css/blocks/new.css');
+@import url('./css/blocks/offers.css');
+@import url('./css/blocks/page.css');
+@import url('./css/blocks/pagination.css');
+@import url('./css/blocks/services.css');
+@import url('./css/blocks/social.css');
+@import url('./css/blocks/topeline.css');
+@import url('./css/blocks/review.css');
+@import url('./css/blocks/banner.css');
+@import url('./css/blocks/form-reviews.css');
+@import url('./css/blocks/welcome.css');
+@import url('./css/blocks/animation.css');
+

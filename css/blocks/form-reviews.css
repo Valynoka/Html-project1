@@ -1,0 +1,115 @@
+.form-reviews {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding: 66px 2px 56px 2px;
+}
+
+.form-reviews__container {
+  width: 1147px;
+  margin: 0 auto;
+}
+
+
+.form-reviews__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 65px;
+}
+
+.form__controls-title {
+  font-size: 18px;
+  margin-right: 0px;
+  width: 501px;
+  margin-right: 40px;
+}
+
+.control {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 9px; */
+}
+
+.control__item {
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+.control__item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.control__elem {
+  position: relative;
+}
+
+
+.form__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.form__controls {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form__iput {
+  background: #FFF;
+  padding: 19px 30px;
+  font-size: 18px;
+  line-height: 1.4;
+  border: 1px solid transparent;
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+}
+
+.form__iput:last-child {
+  margin-right: 0;
+}
+
+.form__iput:focus{
+  outline: none;
+  border: 1px solid #F5170E;
+}
+
+.form__iput::placeholder {
+  color: #666666;
+}
+
+.form__iput--textarea {
+  height: 235px;
+  resize: none;
+}
+
+
+.control__checkbox:checked + .tag,
+.control__checkbox:focus + .tag {
+  background: #B9EAE4;
+}
+
+.control__checkbox {
+  appearance: none;
+  position: absolute;
+}
+
+.form__buttons {
+  padding-top: 34px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 7px;
+  margin-bottom: 33px;
+}
+
+
+
+/* .form__tag {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+/* .tag--focus {
+  background: #B9EAE4;
+} */

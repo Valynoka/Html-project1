@@ -1,0 +1,97 @@
+.reviews__background {
+  background: #fff;
+  color: #1A1B1E;
+}
+
+.reviews__container {
+  width: 1147px;
+  margin: 0 auto;
+  padding-bottom: 93px;
+}
+
+.reviews__block {
+  padding-top: 93px;
+  padding-bottom: 43px;
+  column-count: 2;
+}
+
+.review__elem {
+  padding-bottom: 20px;
+}
+
+.review__container {
+  background: #F4F5F5;
+  padding: 53px 31px 33px 33px;
+}
+
+
+.review__header {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.review__user{
+  margin-right: 26px;
+}
+
+.review__user-link {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.review__user-link:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.review__user-link::after {
+  content: url(../../img/vk-review.png);
+  height: 30px;
+  margin-left: 7px;
+}
+
+.reviews__tags {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-start;
+  background: #E7E7E7;
+  font-size: 13px;
+  padding: 9px 18px;
+  border-radius: 50px;
+}
+
+.tag--bg--active {
+  background: #B9EAE4;
+}
+
+.review__massage {
+  padding-left: 5px;
+}
+
+.review__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.review__text {
+  font-size: 16px;
+  color: #818181;
+  line-height: 27px;
+  margin-bottom: 49px;
+}
+
+.review__date {
+  font-size: 14px;
+  font-weight: 600;
+}
+

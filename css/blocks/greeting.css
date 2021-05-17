@@ -1,0 +1,16 @@
+.greeting {
+  width: 47%;
+  margin-bottom: 0;
+}
+
+.greeting__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-bottom: 30px;
+}
+
+.greeting__text {
+  font-size: 18px;
+  margin-bottom: 34px;
+}

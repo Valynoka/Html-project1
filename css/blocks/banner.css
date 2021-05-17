@@ -1,0 +1,34 @@
+.banner__background {
+  background: url(../../img/Rectangle.png) center no-repeat;
+}
+
+.banner__container {
+  width: 1147px;
+  margin: 0 auto;
+}
+
+.banner__title {
+  min-height: 363px;
+  display: flex;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 608px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.banner__info {
+  display: flex;
+}
+
+.banner__photo {
+  display: flex;
+  align-items: flex-end;
+
+}
