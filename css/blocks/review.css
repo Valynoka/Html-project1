@@ -6,11 +6,11 @@
 .reviews__container {
   width: 1147px;
   margin: 0 auto;
-  padding-bottom: 93px;
+  padding-bottom: 55px;
 }
 
 .reviews__block {
-  padding-top: 93px;
+  padding-top: 128px;
   padding-bottom: 43px;
   column-count: 2;
 }
