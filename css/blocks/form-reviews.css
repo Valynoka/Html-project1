@@ -93,6 +93,8 @@
 .control__checkbox {
   appearance: none;
   position: absolute;
+  overflow: visible;
+  visibility: hidden;
 }
 
 .form__buttons {
