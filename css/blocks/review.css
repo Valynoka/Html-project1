@@ -20,6 +20,10 @@
 }
 
 .review__container {
+  display: -ms-flexbox;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
   background: #F4F5F5;
   padding: 53px 31px 33px 33px;
 }
